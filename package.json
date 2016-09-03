@@ -1,0 +1,43 @@
+{
+  "name": "ndarray-percentiles",
+  "version": "1.0.0",
+  "description": "Percentiles for ndarrays",
+  "main": "index.js",
+  "scripts": {
+    "lint": "semistandard",
+    "test": "npm run lint && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foysavas/ndarray-percentiles.git"
+  },
+  "keywords": [
+    "ndarray",
+    "percentiles",
+    "statistics",
+    "describe"
+  ],
+  "author": "Foy Savas <foy@sav.as> (http://foysavas.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foysavas/ndarray-percentiles/issues"
+  },
+  "homepage": "https://github.com/foysavas/ndarray-percentiles#readme",
+  "semistandard": {
+    "globals": [
+      "describe",
+      "it",
+      "beforeEach"
+    ]
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "ndarray": "^1.0.18",
+    "semistandard": "^8.0.0"
+  },
+  "dependencies": {
+    "ndarray-scratch": "^1.2.0",
+    "ndarray-select": "^1.0.1"
+  }
+}
